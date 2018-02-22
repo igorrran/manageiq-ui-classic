@@ -1357,6 +1357,7 @@ module ApplicationHelper
                         offline
                         orchestration_stack
                         physical_infra_topology
+                        physical_rack
                         physical_server
                         persistent_volume
                         policy
@@ -1453,6 +1454,7 @@ module ApplicationHelper
           orchestration_stack
           physical_server
           persistent_volume
+          physical_rack
           physical_server
           resource_pool
           retired
@@ -1524,6 +1526,7 @@ module ApplicationHelper
              network_router
              orchestration_stack
              persistent_volume
+             physical_rack
              physical_server
              policy
              resource_pool
